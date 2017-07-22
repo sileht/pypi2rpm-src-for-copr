@@ -1,5 +1,5 @@
 # Created by pyp2rpm-3.1.2
-%global pypi_name restructuredtext-lint
+%global pypi_name restructuredtext_lint
 
 Name:           python-%{pypi_name}
 Version:        0.14.3
@@ -8,7 +8,7 @@ Summary:        reStructuredText linter
 
 License:        UNLICENSE
 URL:            https://github.com/twolfson/restructuredtext-lint
-Source0:        https://files.pythonhosted.org/packages/source/r/%{pypi_name}/%{pypi_name}-%{version}.tar.gz
+Source0:        https://pypi.python.org/packages/f6/d2/5e89449b3ff10b5540a096592bbe37c70fb88ae23a3e87a567dc8f4a909e/restructuredtext_lint-0.14.3.tar.gz
 BuildArch:      noarch
  
 BuildRequires:  python-setuptools
